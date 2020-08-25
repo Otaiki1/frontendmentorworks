@@ -1,8 +1,8 @@
-.main{
-    position:absolute;
-    width: 1440px;
-    position:absolute;
-    left: 100px
+.jumbotron {
+    padding: 40px 0px 40px 0px;
+    margin: 0px auto;
+    background: white;
+
 }
 
 .trytfree{
@@ -13,32 +13,23 @@
     padding-bottom: 4px; 
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    right: -900px;
-    top: -30px;
+
  
 }
 
-.top-logo{
-    position: relative;
-    left: 20px;
-    top: 5px
-}
+
 
 .first-heading{
     font-weight: 700;
     font-family: "https://fonts.google.com/specimen/Poppins";
     font-size: 40px;
-    position: relative;
-    left:10%;
 }
 
 .first-body{
     font-weight: 400;
     font-family: "https://fonts.google.com/specimen/Open+Sans";
-    font-size: 17px;
-    position: relative;
-    left:20%;  
+    font-size: 20px;
+
 }
 
 .first-button{
@@ -51,15 +42,11 @@
     border: 0px;
     border-radius: 30px;
     color: white;
-    position: relative;
-    left:27%;
+
 }
 
 .screen-mockups{
-    position:relative;
-    top:50px;
-    width: 900px;
-    left: 50px
+
 }
 .big-numbers{
     font-weight: 700;
@@ -73,34 +60,35 @@
 }
 
 .communities{
-    position:relative;
-    top:120px ;
-    left:100px
 
 }
 .messages{
-    position:relative;
-    top:0px ;
-    right: -700px; 
+
 }
 .grow-together-bg-top{
-    position: relative;
-    height: 50px;
-    width: 1000px;
+    background-image: url("./images/bg-section-top-desktop-1.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 165px;
+    /* border: 1px solid black; */
+}
  
  }
 .grow-together-bg-down{
-    position: relative;
-    top: -10px;
-    height: 400px;
-    width:5440px
+    background-image: url("./images/bg-section-bottom-desktop-1.svg");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 139px;
+    /* border: 1px solid black; */
+    margin-bottom: 6em;
  }
 
 .grow-together{
-   position: absolute;
-   width: 250px ;
-   top: 1300px;
-   right: 500px;
+
+   width: 350px ;
+
 }
 .image-text-heading{
     font-weight: 600;
@@ -113,51 +101,49 @@
     font-size: 15px;
 }
 .grow-together-text{
-    position:absolute;
-    left: 100px;
-    top: 1330px
+ 
 }
 .flowing-conversation{
-    position: relative;
-    width: 380px ;
-    left: 80px;
+
+    width: 350px ;
+
 }
 .flowing-conversation-text{
-    position:absolute;
-    top: 1800px;
-    right: 460px;
+
 }
 
 .your-users-bg-top{
-    position: relative;
-    height: 50px;
-    width:1000px
- 
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 156px;
+    /* border: 1px solid black; */
+    margin-top: 6em;
  }
 .your-users-bg-down{
-    position: relative;
-    top: -10px;
-    height: 350px;
-    width: 11440px;
-
+    background-image: url(./images/bg-section-bottom-desktop-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 139px;
+    background-position: top;
+    /* border: 1px solid black; */
+    /* margin-bottom: 6em; */
  }
  .your-users{
-    position: absolute;
-    width: 300px ;
-    top: 2150px;
-    left: 600px; 
+
+    width: 350px ;
+ 
+
  }
  .your-users-text{
-    position: absolute;
-    top: 2200px;
-    left: 100px;
+
  }
  .second-heading{
     font-weight: 600;
     font-family: "https://fonts.google.com/specimen/Poppins";
     font-size: 30px;
-    position: relative;
-    left:20%; 
+
  }
 
 .footer-bg{
