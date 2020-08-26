@@ -1,8 +1,9 @@
 .jumbotron {
     padding: 40px 0px 40px 0px;
     margin: 0px auto;
-    background: white;
-
+    background: rgb(92, 84, 84);
+    background-color:  white;
+    
 }
 
 .trytfree{
@@ -152,7 +153,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     height: 300px;
-}
+ 
 .footer-box{
     /* border: 1px solid black; */
     background-color: #00252E
@@ -160,21 +161,17 @@
 .footer-huddle-box{
     /* border: 1px solid black; */
     background-color: #00252E;
-    position:relative;
-    left:80px;
-    bottom:-20px;
+
 }
 .footer-newsletter-box{
     background-color: #00252E;
     /* border: 1px solid black; */
-    position: absolute;
-    left:650px;
-    bottom: -15px;
+ 
 }
 .footer-logo{
     width: 202px;
     height: 30px;
-    margin-left: -40px;
+
 }
 .footer-huddle-text{
     color: white;
@@ -222,4 +219,10 @@
 }
 .attribution{
     background-color:#00252E;
+}
+
+.rowww{
+    border: 1px black;
+    background-color:#00252E;
+} 
 }
